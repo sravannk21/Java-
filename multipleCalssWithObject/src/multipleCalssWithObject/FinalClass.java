@@ -1,0 +1,13 @@
+package multipleCalssWithObject;
+
+public class FinalClass {
+	void display() {
+		SecondClass obj= new SecondClass();
+		int result=obj.CalculateSum();
+		System.out.println("sum of the numbers:"+result);
+	}
+	String thanks() {
+		String t="thanks";
+		return t;
+	}
+}

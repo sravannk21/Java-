@@ -1,0 +1,16 @@
+package multipleCalssWithObject;
+
+import java.util.Scanner;
+
+public class SecondClass {
+	int CalculateSum() {
+		System.out.println("enter the limit:");
+		Scanner store= new Scanner(System.in);
+		int limit=store.nextInt();
+		int sum=0;
+		for(int i=0; i<=limit; i++) {
+			sum+=i;
+		}
+		return sum;
+	}
+}

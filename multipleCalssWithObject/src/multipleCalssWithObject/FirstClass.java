@@ -1,0 +1,9 @@
+package multipleCalssWithObject;
+
+public class FirstClass {
+	public static void main(String ar[]) {
+		FinalClass res=new FinalClass();
+		res.display();
+		res.thanks();
+	}
+}

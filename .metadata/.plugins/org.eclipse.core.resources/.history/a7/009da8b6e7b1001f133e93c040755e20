@@ -1,0 +1,18 @@
+public class Sample {
+    public static void main(String[] args) {
+        String result1;
+        int result2;
+        result1 = display(); // Remove asterisks
+        result2 = display(27); // Remove asterisks
+    }
+
+    static String display() {
+        System.out.println("this is function without argument for polymorphism sample");
+        return ""; // Return a string to match result1 type
+    }
+
+    static int display(int a) {
+        System.out.println("this is function with argument with same name eg for the polymorphism " + a);
+        return a; // Return the input integer to match result2 type
+    }
+}

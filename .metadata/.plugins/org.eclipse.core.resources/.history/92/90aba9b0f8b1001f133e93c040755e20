@@ -1,0 +1,7 @@
+package superKeyword;
+
+public class parentClass {
+	void display() {
+		System.out.println("hello parent");
+	}
+}

@@ -1,0 +1,9 @@
+
+public class Sample {
+	public static void main(String ar[]) {
+		display();
+	}
+	static void display() {
+		System.out.println("hello user");
+	}
+}

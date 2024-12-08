@@ -1,0 +1,6 @@
+
+public class SecondClass {
+	void display() {
+		System.out.println("Welcome to the second class");
+	}
+}

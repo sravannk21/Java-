@@ -1,0 +1,15 @@
+package abstractSample;
+
+public class Sample extends Hello {
+	void onText(String name) {
+		
+	}
+	Sample(){
+		TextScanner tx=new TextScanner(this);
+		tx.scan();
+	};
+	public static void main(String ar[]) {
+		Sample obj=new Sample();
+	}
+	
+}

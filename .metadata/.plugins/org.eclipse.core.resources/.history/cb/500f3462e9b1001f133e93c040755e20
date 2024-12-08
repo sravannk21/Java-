@@ -1,0 +1,13 @@
+
+public class Sample {
+	public static void main(String ar[]) {
+		display();
+		display(45);
+	}
+	static void display() {
+		System.out.println("hello user");
+	}
+	static void display(int a) {
+		System.out.println(a);
+	}
+}

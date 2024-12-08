@@ -1,0 +1,7 @@
+package accessSpecifiers;
+
+public class hello {
+	void hello() {
+		System.out.println("welcome");
+	}
+}

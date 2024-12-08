@@ -1,0 +1,11 @@
+package classSample2;
+
+public class sumClass {
+	public static void CalculateSum(int num1,int num2) {
+		int sum=num1+num2;
+		System.out.println("sum of the two numbers:"+sum);
+	}
+	public static void Display(int num1,int num2) {
+		public int CalculateSum(int, int);
+	}
+}

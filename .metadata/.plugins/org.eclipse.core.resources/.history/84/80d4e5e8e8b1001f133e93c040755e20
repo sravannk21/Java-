@@ -1,0 +1,15 @@
+
+public class Sample {
+	public static void main(String ar[]) {
+		String result1;
+		int result2;
+		result1 = display();
+		result2 = display(27);
+	}
+	static String display() {
+		System.out.println("this is funtion without argument for polymorphism sample");
+	}
+	static int display(int a) {
+		System.out.println("this is funtion with argument with same name eg for the polymorphism"+a);
+	}
+}

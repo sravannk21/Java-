@@ -1,0 +1,10 @@
+package classSample2;
+
+public class MainClass {
+	public static void main(String ar[]) {
+		int num1=23;
+		int num2=25;
+		sumClass obj=new sumClass();
+		obj.Display(num1,num2);
+	}
+}

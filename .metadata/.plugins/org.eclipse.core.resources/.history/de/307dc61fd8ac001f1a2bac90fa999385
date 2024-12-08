@@ -1,0 +1,8 @@
+package preIncrementandPostIncrement;
+
+public class IncrementValues {
+	public static void main(String ar[]) {
+		int a=5;
+		System.out.println(++a);
+	}
+}
